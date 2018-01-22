@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatRadioModule } from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
